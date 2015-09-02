@@ -19,10 +19,10 @@
 	    		<p class="instruction-text">Center multiple arbitrary elements horizontally, with padding.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
-							<img src="http://placehold.it/160">
-							<img src="http://placehold.it/160">
-							<img src="http://placehold.it/160">
+						<div class="box">
+							<img src="http://placehold.it/160" class="box-three">
+							<img src="http://placehold.it/160" class="box-three">
+							<img src="http://placehold.it/160" class="box-three">
 						</div>
 				    <!-- End editable area -->
 			    </div>
@@ -30,12 +30,12 @@
 	    		<p class="instruction-text">Works with different HTML...</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
-							<img src="http://placehold.it/120">
-							<img src="http://placehold.it/160">
-				    	<p>Oh hello</p>
-							<img src="http://placehold.it/80">
-							<ol>
+						<div class="container">
+							<img src="http://placehold.it/120" class="items">
+							<img src="http://placehold.it/160" class="items">
+				    	<p class="items">Oh hello</p>
+							<img src="http://placehold.it/80" class="items">
+							<ol class="items">
 								<li>Ready</li>
 								<li>Fire</li>
 								<li>Aim</li>
@@ -51,8 +51,8 @@
 	    		<p class="instruction-text">Center arbitrary elements vertically, with padding.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
-							<div>
+						<div class="white-box">
+							<div class="img-holder">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/50">
@@ -65,7 +65,7 @@
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
 			    	<div>
-							<div>
+							<div class="black-box">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/20">
 					    	<p>Oh hello</p>
@@ -87,7 +87,7 @@
 	    		<p class="instruction-text">Make the list items horizontal instead of vertical.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ul>
+			    	<ul class="shoot">
 							<li>Ready</li>
 							<li>Fire</li>
 							<li>Aim</li>
@@ -102,18 +102,18 @@
 	    		<p class="instruction-text">Create a set of different-sized buttons.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<a href="#">Buy Now</a>
-			    	<a href="#">Learn More</a>
-			    	<a href="#">OK</a>
+			    	<a class="one" href="#">Buy Now</a>
+			    	<a class="two" href="#">Learn More</a>
+			    	<a class="three" href="#">OK</a>
 				    <!-- End editable area -->
 			    </div>
 
 	    		<p class="instruction-text">Should work with both &lt;a&gt;, &lt;button&gt;, and &lt;submit&gt; elements.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<a href="#">Learn More</a>
-			    	<input type="button" href="#" value="Accept">
-			    	<input type="submit" href="#" value="Submit">
+			    	<a class="four" href="#">Learn More</a>
+			    	<input type="button" href="#" value="Accept" class="four" >
+			    	<input type="submit" href="#" value="Submit" class="four" >
 				    <!-- End editable area -->
 			    </div>
 			  </li>
@@ -124,7 +124,7 @@
 	    		<p class="instruction-text">Create a navigation menu with links that are highlighted on hover.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<nav>
+			    	<nav class="nav">
 			    		<ul>
 			    			<li><a href="#">Home</a></li>
 			    			<li><a href="#">Products</a></li>
@@ -143,16 +143,16 @@
 	    		<p class="instruction-text">Style a pagination control for navigating through pages of search results.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ol>
-			    		<li><a href="#">prev</a></li>
-			    		<li><a href="#">5</a></li>
-			    		<li><a href="#">6</a></li>
-			    		<li><a href="#">7</a></li>
-			    		<li><span>8</span></li>
-			    		<li><a href="#">9</a></li>
-			    		<li><a href="#">10</a></li>
-			    		<li><a href="#">11</a></li>
-			    		<li><a href="#">next</a></li>
+			    	<ol class="page-nav">
+			    		<li class="list-item"><a href="#">prev</a></li>
+			    		<li class="list-item"><a href="#">5</a></li>
+			    		<li class="list-item"><a href="#">6</a></li>
+			    		<li class="list-item"><a href="#">7</a></li>
+			    		<li class="list-item"><span>8</span></li>
+			    		<li class="list-item"><a href="#">9</a></li>
+			    		<li class="list-item"><a href="#">10</a></li>
+			    		<li class="list-item"><a href="#">11</a></li>
+			    		<li class="list-item"><a href="#">next</a></li>
 			    	</ol>
 				    <!-- End editable area -->
 			    </div>
@@ -164,53 +164,53 @@
 	    		<p class="instruction-text">Style a stream of user comments.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-				    <div>
-				    	<div>
+				    <div class="comment">
+				    	<div class="avatar">
 					    	<img src="http://gravatar.com/avatar/0?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="first-comment">
 				    		<strong>@metaraine</strong>
 					    	<time>Thursday, June 27, 2013, 4:15pm</time>
 					    	<p>Wow, that was an amazing article.</p>
 					    </div>
 					  </div>
 
-				    <div>
-				    	<div>
+				    <div class="comment">
+				    	<div class="avatar">
 					    	<img src="http://gravatar.com/avatar/1?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="first-comment">
 				    		<strong>@seandaken</strong>
 					    	<time>Friday, June 28, 2013, 11:02</time>
 					    	<p>I learned 100 new things.</p>
 					    </div>
 					  </div>
 
-				    <div>
-				    	<div>
+				    <div class="comment">
+				    	<div class="avatar">
 					    	<img src="http://gravatar.com/avatar/0?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="first-comment">
 				    		<strong>@metaraine</strong>
 					    	<time>2 hours ago</time>
 					    	<p>How about we have the RefactorU student climb Bear Peak each morning before class?</p>
 
-						    <div>
-						    	<div>
+						    <div class="more-comments">
+						    	<div class="small-avatar">
 							    	<img src="http://gravatar.com/avatar/1?d=identicon&s=60">
 							    </div>
-						    	<div>
+						    	<div class="second-comment">
 						    		<strong>@seandaken</strong>
 							    	<time>45 minutes ago</time>
 							    	<p>Sure</p>
 							    </div>
 							  </div>
 
-						    <div>
-						    	<div>
+						    <div class="more-comments">
+						    	<div class="small-avatar">
 							    	<img src="http://gravatar.com/avatar/2?d=identicon&s=60">
 							    </div>
-						    	<div>
+						    	<div class="second-comment">
 						    		<strong>@nullempire</strong>
 							    	<time>just now</time>
 							    	<p>No!</p>
@@ -228,7 +228,7 @@
 	    		<p class="instruction-text">Create styles for a tabbed content control. There should be an active tab that is styled to appear in the foreground.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ul>
+			    	<ul class="tabs">
 			    		<li><a href="#">
 			    			<div>First</div>
 			    		</a></li>
@@ -242,7 +242,7 @@
 			    			<div>Fourth</div>
 			    		</a></li>
 			    	</ul>
-	    			<div>
+	    			<div class="tab-text">
 				    	<p>Lemon drops dessert bonbon sesame snaps. Cheesecake candy canes ice cream dessert toffee applicake caramels pudding pie. Marshmallow wypas halvah ice cream.</p>
 							<p>Tart croissant lollipop toffee bear claw gingerbread candy canes tart. Cookie candy canes carrot cake muffin danish jelly beans cookie. Donut liquorice jelly dragée biscuit cookie wafer. Soufflé caramels gingerbread cheesecake sesame snaps.</p>
 							<p>Chocolate cake wypas pie tiramisu lollipop chocolate bar lollipop. Chupa chups sugar plum oat cake candy canes lemon drops. Brownie fruitcake oat cake gummi bears faworki. Muffin cheesecake pastry.</p>
